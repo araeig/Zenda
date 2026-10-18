@@ -1,0 +1,52 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Local .NET configuration may contain credentials
+**/appsettings*.json
+!**/appsettings.example.json
+**/secrets.json
+
+# Python
+**/venv/
+**/.venv/
+**/__pycache__/
+**/*.py[cod]
+
+# .NET / Visual Studio
+**/bin/
+**/obj/
+**/.vs/
+**/*.user
+**/*.suo
+
+# Flutter / Dart
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/build/
+**/coverage/
+**/android/local.properties
+**/*.iml
+
+# IDEs and OS files
+**/.idea/
+**/.vscode/
+.DS_Store
+Thumbs.db
+
+# Local database exports and logs
+*.dump
+*.bak
+*.log
+/rag_service/test.json
+
+# User-uploaded runtime content (keep app code/assets only)
+/ZendaAPI/ZendaAPI/wwwroot/avatars/*
+!/ZendaAPI/ZendaAPI/wwwroot/avatars/.gitkeep
+/ZendaAPI/ZendaAPI/wwwroot/attachments/*
+!/ZendaAPI/ZendaAPI/wwwroot/attachments/.gitkeep

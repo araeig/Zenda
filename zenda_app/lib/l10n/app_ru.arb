@@ -1,0 +1,461 @@
+{
+  "@@locale": "ru",
+  "navHome": "Главный",
+  "navCalendar": "Календарь",
+  "navTasks": "Задачи",
+  "navAssistant": "Ассистент",
+  "navProfile": "Профиль",
+  "noConnectionTitle": "Нет связи с сервером",
+  "noConnectionSubtitle": "Проверьте интернет и попробуйте ещё раз",
+  "commonCancel": "Отмена",
+  "commonSave": "Сохранить",
+  "commonDelete": "Удалить",
+  "commonAdd": "Добавить",
+  "commonRetry": "Повторить",
+  "pullToRetry": "Потяните экран вниз, чтобы попробовать ещё раз",
+  "profileLoadError": "Не удалось загрузить профиль",
+  "profileEdit": "Редактировать профиль",
+  "profileStatCompleted": "{count, plural, one{задача выполнена} few{задачи выполнено} many{задач выполнено} other{задачи выполнено}}\nза неделю",
+  "@profileStatCompleted": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "profileStatStreak": "{count, plural, one{день} few{дня} many{дней} other{дня}}\nподряд",
+  "@profileStatStreak": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "profileStatActive": "{count, plural, one{активный\nпроект} few{активных\nпроекта} many{активных\nпроектов} other{активного\nпроекта}}",
+  "@profileStatActive": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsTitle": "НАСТРОЙКИ",
+  "settingsTheme": "Тема оформления",
+  "settingsNotifications": "Уведомления",
+  "notificationsOn": "Включены",
+  "notificationsOff": "Выключены",
+  "settingsLanguage": "Язык интерфейса",
+  "settingsAbout": "О приложении",
+  "logout": "Выйти из аккаунта",
+  "remindersOnTitle": "Напоминания включены",
+  "remindersOnSubtitle": "За 15 минут до начала, а дела без времени — в 9:00",
+  "remindersOnWebSubtitle": "Они приходят в мобильном приложении Zenda",
+  "remindersPermissionTitle": "Нет разрешения на уведомления",
+  "remindersPermissionSubtitle": "Разрешите уведомления для Zenda в настройках телефона",
+  "remindersOffTitle": "Напоминания выключены",
+  "aboutDescription": "Планировщик проектов, задач и событий с ИИ-ассистентом, который отвечает по вашим данным.",
+  "aboutVersion": "Версия {version}",
+  "@aboutVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "languageSaveError": "Не удалось сохранить язык",
+  "authSignIn": "Войти",
+  "authSignUp": "Зарегистрироваться",
+  "authWelcomeBack": "С возвращением",
+  "authSignInSubtitle": "Войдите, чтобы продолжить",
+  "fieldEmail": "EMAIL",
+  "fieldPassword": "ПАРОЛЬ",
+  "fieldConfirmPassword": "ПОДТВЕРДИТЕ ПАРОЛЬ",
+  "fieldFirstName": "ИМЯ",
+  "fieldLastName": "ФАМИЛИЯ",
+  "fieldRequired": "Заполните это поле",
+  "hintEmail": "arina@example.com",
+  "hintFirstName": "Арина",
+  "hintLastName": "Гайсина",
+  "authForgotLink": "Я не помню пароль",
+  "authNoAccount": "Нет аккаунта?",
+  "authHaveAccount": "Уже есть аккаунт?",
+  "authCheckData": "Проверьте данные и попробуйте ещё раз",
+  "authCreateAccount": "Создать аккаунт",
+  "authCreateSubtitle": "Это займёт меньше минуты",
+  "passwordTooShort": "Пароль должен быть не короче 8 символов",
+  "passwordsMismatch": "Пароли не совпадают",
+  "forgotTitle": "Восстановление пароля",
+  "forgotSubtitle": "Введите почту — пришлём ссылку для сброса пароля",
+  "forgotSend": "Отправить письмо",
+  "backToLogin": "Вернуться ко входу",
+  "forgotSentTitle": "Письмо отправлено",
+  "forgotSentBefore": "Мы отправили ссылку для восстановления на ",
+  "forgotSentAfter": ". Проверьте почту и перейдите по ссылке.",
+  "forgotSendError": "Не удалось отправить письмо",
+  "forgotSendErrorSubtitle": "Проверьте адрес и подключение к интернету",
+  "greetingMorning": "Доброе утро",
+  "greetingAfternoon": "Добрый день",
+  "greetingEvening": "Добрый вечер",
+  "greetingNight": "Доброй ночи",
+  "greetingWithName": "{greeting}, {name}",
+  "sectionUrgent": "ГОРЯЩИЕ ЗАДАЧИ",
+  "sectionOtherProjects": "ОСТАЛЬНЫЕ ПРОЕКТЫ",
+  "sortByDeadline": "По сроку",
+  "sortNewest": "Сначала новые",
+  "sortOldest": "Сначала старые",
+  "sortByDeadlineFull": "Сначала с ближайшим сроком",
+  "deadlineNone": "Без срока",
+  "deadlineToday": "Срок: сегодня",
+  "deadlineTomorrow": "Срок: завтра",
+  "deadlineDate": "Срок: {date}",
+  "overdueDays": "{count, plural, one{Просрочено на {count} день} few{Просрочено на {count} дня} many{Просрочено на {count} дней} other{Просрочено на {count} дня}}",
+  "tasksDoneOfTotal": "{total, plural, one{{done} из {total} задачи} few{{done} из {total} задач} many{{done} из {total} задач} other{{done} из {total} задачи}}",
+  "tasksNone": "задач пока нет",
+  "statTotal": "всего",
+  "statDone": "выполнено",
+  "statLeft": "осталось",
+  "projectsLoadError": "Не удалось загрузить проекты",
+  "projectsEmptyTitle": "Пока нет проектов",
+  "projectsEmptyHome": "Создайте первый проект — он появится здесь",
+  "projectEdit": "Изменить",
+  "projectAddTask": "Задача",
+  "sectionTasks": "ЗАДАЧИ",
+  "projectNoTasks": "Задач пока нет — добавьте первую",
+  "projectLoadError": "Не удалось загрузить проект",
+  "projectFinishedTitle": "Проект завершён",
+  "projectFinishedArchived": "Все задачи выполнены — проект находится в архиве",
+  "projectFinishedMoved": "Все задачи выполнены — проект перенесён в архив",
+  "taskCompleteError": "Не удалось отметить задачу",
+  "taskMetaToday": "Сегодня",
+  "taskMetaYesterday": "Вчера",
+  "taskMetaTomorrow": "Завтра",
+  "taskMetaTomorrowAt": "Завтра, {time}",
+  "projectFormEditTitle": "Изменить проект",
+  "projectFormNewTitle": "Новый проект",
+  "fieldName": "НАЗВАНИЕ",
+  "projectNameHint": "Например, курсовая работа",
+  "fieldDeadline": "СРОК",
+  "projectDeadlineHelp": "Проекты со сроком в ближайшие 7 дней попадают в «Горящие задачи»",
+  "projectCreate": "Создать проект",
+  "fieldNameRequired": "Укажите название",
+  "projectUpdated": "Проект обновлён",
+  "projectCreated": "Проект создан",
+  "projectSaveError": "Не удалось сохранить проект",
+  "projectCreateError": "Не удалось создать проект",
+  "@greetingWithName": {
+    "placeholders": {
+      "greeting": {
+        "type": "String"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@deadlineDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@overdueDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@tasksDoneOfTotal": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "@taskMetaTomorrowAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "calendarAllDay": "Весь день",
+  "calendarCountToday": "{count, plural, one{{count} дело на сегодня} few{{count} дела на сегодня} many{{count} дел на сегодня} other{{count} дела на сегодня}}",
+  "calendarCountDay": "{count, plural, one{{count} дело на этот день} few{{count} дела на этот день} many{{count} дел на этот день} other{{count} дела на этот день}}",
+  "calendarEmptyToday": "На сегодня ничего не запланировано",
+  "calendarEmptyDay": "Ничего не запланировано",
+  "calendarOverdueCount": "просрочено: {count}",
+  "sectionOverdue": "ПРОСРОЧЕНО",
+  "sectionSchedule": "РАСПИСАНИЕ",
+  "calendarTask": "Задача",
+  "calendarTaskWithProject": "Задача · {project}",
+  "commentPrefix": "Комментарий: {text}",
+  "calendarLoadError": "Не удалось загрузить расписание",
+  "calendarFreeDay": "Свободный день",
+  "calendarFreeDayHint": "Нажмите «+», чтобы добавить событие",
+  "sheetTypeTask": "ЗАДАЧА",
+  "sheetTypeEvent": "СОБЫТИЕ",
+  "sheetDone": "Выполнена",
+  "sheetAllDayLower": "весь день",
+  "sectionAttachments": "ВЛОЖЕНИЯ",
+  "attachmentsEmpty": "Файлы и ссылки появятся здесь: видео, документы, полезные материалы.",
+  "attachmentTypeVideo": "Видео",
+  "attachmentTypeDocument": "Документ",
+  "attachmentTypeFile": "Файл",
+  "attachmentTypeLink": "Ссылка",
+  "attachmentFileHint": "Документ, видео или картинка до 20 МБ",
+  "attachmentLinkHint": "Видео на YouTube, статья, материалы",
+  "attachmentOpenError": "Не удалось открыть вложение",
+  "attachmentTooBig": "Файл слишком большой",
+  "attachmentTooBigHint": "Можно прикрепить файл до 20 МБ",
+  "attachmentFileAdded": "Файл прикреплён",
+  "attachmentUploadError": "Не удалось загрузить файл",
+  "attachmentLinkAdded": "Ссылка добавлена",
+  "attachmentLinkError": "Не удалось добавить ссылку",
+  "attachmentDeleteTitle": "Удалить вложение?",
+  "attachmentDeleteText": "«{label}» будет удалено.",
+  "attachmentDeleteError": "Не удалось удалить вложение",
+  "linkDialogNameHint": "Название (необязательно)",
+  "linkDialogError": "Вставьте ссылку, например youtube.com/…",
+  "sectionNotes": "ЗАМЕТКИ",
+  "notesEmpty": "Пока нет заметок. Сюда удобно записать детали, ссылки или мысли.",
+  "markDone": "Отметить выполненной",
+  "moveToToday": "Перенести на сегодня",
+  "taskCompleted": "Задача выполнена",
+  "movedToToday": "Перенесено на сегодня",
+  "moveError": "Не удалось перенести задачу",
+  "deleteTaskTitle": "Удалить задачу?",
+  "deleteEventTitle": "Удалить событие?",
+  "deleteWithExtras": "Заметки и вложения тоже удалятся. Это действие нельзя отменить.",
+  "deleteIrreversible": "Это действие нельзя отменить.",
+  "taskDeleted": "Задача удалена",
+  "eventDeleted": "Событие удалено",
+  "deleteError": "Не удалось удалить",
+  "eventFormEditTitle": "Изменить событие",
+  "eventFormNewTitle": "Новое событие",
+  "eventTitleHint": "Например, созвон с командой",
+  "fieldDate": "ДАТА",
+  "fieldStart": "НАЧАЛО",
+  "fieldEnd": "КОНЕЦ",
+  "fieldAddress": "АДРЕС",
+  "fieldComment": "КОММЕНТАРИЙ",
+  "optionalHint": "Необязательно",
+  "startTimeRequired": "Укажите время начала",
+  "endAfterStart": "Конец должен быть позже начала",
+  "eventUpdated": "Событие обновлено",
+  "eventCreated": "Событие создано",
+  "eventSaveError": "Не удалось сохранить событие",
+  "eventCreateError": "Не удалось создать событие",
+  "noteTitle": "Заметка",
+  "noteNewTitle": "Новая заметка",
+  "noteForTask": "К задаче «{owner}»",
+  "noteForEvent": "К событию «{owner}»",
+  "fieldTitle": "ЗАГОЛОВОК",
+  "fieldText": "ТЕКСТ",
+  "noteHint": "Детали, ссылки, мысли — всё, что важно не забыть",
+  "noteAssistantHint": "Ассистент учитывает заметки, когда отвечает на вопросы",
+  "noteTextRequired": "Напишите текст заметки",
+  "noteSaved": "Заметка сохранена",
+  "noteSaveError": "Не удалось сохранить заметку",
+  "noteDeleteTitle": "Удалить заметку?",
+  "noteDeleted": "Заметка удалена",
+  "noteDeleteError": "Не удалось удалить заметку",
+  "@calendarCountToday": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@calendarCountDay": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@calendarOverdueCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@calendarTaskWithProject": {
+    "placeholders": {
+      "project": {
+        "type": "String"
+      }
+    }
+  },
+  "@commentPrefix": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "@attachmentDeleteText": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "@noteForTask": {
+    "placeholders": {
+      "owner": {
+        "type": "String"
+      }
+    }
+  },
+  "@noteForEvent": {
+    "placeholders": {
+      "owner": {
+        "type": "String"
+      }
+    }
+  },
+  "tasksTitle": "Все задачи",
+  "tasksSummary": "{active, plural, one{{active} активная} few{{active} активные} many{{active} активных} other{{active} активной}} · {done} выполнено",
+  "archiveTitle": "Архив",
+  "tasksLoadError": "Не удалось загрузить задачи",
+  "tasksEmptyHint": "Нажмите «+», чтобы создать первый проект",
+  "tasksEmptyProject": "Задач пока нет",
+  "taskNewTitle": "Новая задача",
+  "createTaskSubtitle": "В одном из ваших проектов",
+  "createProjectSubtitle": "Со сроком или без",
+  "createProjectFirst": "Сначала создайте проект",
+  "tasksLiveInProjects": "Задачи живут внутри проектов",
+  "archiveCount": "{count, plural, one{{count} завершённый проект} few{{count} завершённых проекта} many{{count} завершённых проектов} other{{count} завершённого проекта}}",
+  "archiveEmptySubtitle": "Пока нет завершённых проектов",
+  "archiveCompletedOn": "Завершён {date}",
+  "archiveCompleted": "Завершён",
+  "restore": "Восстановить",
+  "projectRestored": "Проект восстановлен",
+  "restoreError": "Не удалось восстановить проект",
+  "archiveNoTasks": "Без задач",
+  "archiveLoadError": "Не удалось загрузить архив",
+  "archiveEmptyTitle": "Архив пуст",
+  "archiveEmptyHint": "Сюда попадают проекты, у которых выполнены все задачи",
+  "taskFormEditTitle": "Изменить задачу",
+  "taskFormProject": "Проект: {name}",
+  "fieldProject": "ПРОЕКТ",
+  "chooseProject": "Выберите проект",
+  "taskTitleHint": "Что нужно сделать",
+  "fieldTime": "ВРЕМЯ",
+  "setDeadlineFirst": "Сначала укажите срок",
+  "taskUpdated": "Задача обновлена",
+  "taskCreated": "Задача создана",
+  "taskSaveError": "Не удалось сохранить задачу",
+  "taskCreateError": "Не удалось создать задачу",
+  "changePhoto": "Изменить фото",
+  "fieldWorkplace": "МЕСТО УЧЁБЫ ИЛИ РАБОТЫ",
+  "workplaceHint": "Например, 4 курс, Информационные системы",
+  "emailLabel": "Email: {email}",
+  "firstNameRequired": "Укажите имя",
+  "lastNameRequired": "Укажите фамилию",
+  "photoUpdated": "Фото обновлено",
+  "photoUploadError": "Не удалось загрузить фото",
+  "profileUpdated": "Профиль обновлён",
+  "profileSaveError": "Не удалось сохранить профиль",
+  "remindersChannel": "Напоминания",
+  "remindersChannelDescription": "Напоминания о задачах и событиях",
+  "eventWord": "Событие",
+  "reminderEventAt": "Событие · начало в {time}",
+  "reminderEventAllDay": "Событие · сегодня, весь день",
+  "reminderTaskAt": "Задача · срок в {time}",
+  "reminderTaskToday": "Задача · срок сегодня",
+  "@tasksSummary": {
+    "placeholders": {
+      "active": {
+        "type": "int"
+      },
+      "done": {
+        "type": "int"
+      }
+    }
+  },
+  "@archiveCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@archiveCompletedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@taskFormProject": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@emailLabel": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "@reminderEventAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@reminderTaskAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "assistantSubtitle": "Отвечает на основе ваших задач и заметок",
+  "clearButton": "Очистить",
+  "clearHistoryTitle": "Очистить историю?",
+  "clearHistoryText": "Вся переписка с ассистентом будет удалена.",
+  "historyCleared": "История очищена",
+  "clearHistoryError": "Не удалось очистить историю",
+  "welcomeTitle": "Чем помочь?",
+  "welcomeText": "Спросите о задачах, событиях или заметках — ассистент найдёт ответ в ваших данных",
+  "suggestionToday": "Что у меня сегодня?",
+  "suggestionUrgent": "Какие проекты горят?",
+  "suggestionWeek": "Собери итоги недели",
+  "assistantCheckService": "Проверьте, что запущен rag_service и включён VPN",
+  "assistantUnavailable": "Ассистент сейчас недоступен",
+  "assistantNoAnswer": "Не удалось получить ответ",
+  "assistantCouldNotAnswer": "Ассистент не смог ответить",
+  "micDenied": "Нет доступа к микрофону",
+  "micDeniedHint": "Разрешите Zenda использовать микрофон",
+  "recordStartError": "Не удалось начать запись",
+  "recordNotSaved": "Запись не сохранилась",
+  "recordTooShort": "Слишком короткая запись",
+  "recordTooShortHint": "Нажмите микрофон, скажите вопрос и нажмите ещё раз",
+  "transcribeError": "Не удалось распознать речь",
+  "transcribeEmpty": "Не получилось разобрать слова",
+  "transcribeEmptyHint": "Попробуйте сказать ещё раз чуть громче",
+  "recordingLabel": "Запись · {time}",
+  "recordingHint": "нажмите ■, чтобы закончить",
+  "transcribing": "Распознаю речь…",
+  "inputHint": "Спросите что-нибудь...",
+  "@recordingLabel": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "sourceNotFound": "Этот источник уже удалён"
+}
